@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	
+	background-color: blue;
+}
+nav{
+	display: flex;
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+.logo img{
+	width: 88px;
+	padding: 0 27px;
+}
+
+nav ul{
+	height: 58px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+nav ul li{
+	list-style: none;
+	padding: 0 24px;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	/*color: darkblue;*/
+	font-weight: bolder;
+}
+
+.search{
+	display: flex;
+	align-items: center;
+	
+}
+
+.search input{
+	width: 30vw;
+	height: 24px;
+	border-radius: 6px;
+	margin: 0 14px 0 70px;
+	padding: 0 9px;
+}
+.btn{
+	padding: 5px 3px;
+	color: blue;
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.btn:hover{
+	color: darkblue;
+}
+
+
+.container{
+	min-height: calc(100vh - 58px - 12vh);
+}
+.slider{
+	margin: auto;
+	width: 80vw;
+	margin: 12px auto;
+	overflow: hidden;
+}
+
+.kart{
+	max-width: 91vw;
+	margin: 50px auto;
+	font-family: 'Montserrat', sans-serif;
+}
+.karts{
+	display: flex;
+	align-items: center;
+	overflow: scroll;
+}
+.kart-item{
+	display: inline-flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 15px;	
+}
+.text-center{
+	text-align: center;
+}
+.my-2{
+	margin: 8px 0;
+}
+
+footer{
+	height: 12vh;
+	background-color: blue;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+.my-1{
+	margin: 26px 0;
+}
